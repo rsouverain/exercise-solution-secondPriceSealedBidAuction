@@ -1,0 +1,61 @@
+{
+  "name": "exercise-secondPriceSealedBidAuction-solution",
+  "version": "0.0.1",
+  "description": "Second Price Sealed Bid Auction Resolver (SPSBAR)",
+  "author": "rsouverain",
+  "keywords": [
+    "auction",
+    "resolver",
+    "second",
+    "price",
+    "sealed",
+    "bid"
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./lib/index.d.ts",
+  "start": "nodemon",
+  "scripts": {
+    "clean:lib": "rimraf \"./lib\" && mkdirp \"./lib\"",
+    "clean:typedoc": "rimraf \"./docs/typedoc\" && mkdirp \"./docs/typedoc\"",
+    "lint": "eslint --no-fix --env node \"src/**\"",
+    "lint:fix": "npm run lint --silent -- --fix",
+    "test:nobuild": "jest --verbose --no-cache",
+    "test": "npm run build && npm run test:nobuild",
+    "test:precommit": "npm run test -- -- --bail",
+    "test:coverage:nobuild": "npm run test:nobuild -- --coverage",
+    "test:coverage": "npm run test -- -- --coverage",
+    "test:dev": "npm run test:nobuild -- --watch",
+    "build": "npm run clean:lib && tsc",
+    "dev": "npm run build -- -w",
+    "typedoc": "npm run clean:typedoc && typedoc --options typedoc.config.js ./src/",
+    "build:all": "npm run test:coverage && npm run typedoc"
+  },
+  "precommit.silent": false,
+  "pre-commit": [
+    "test:precommit",
+    "typedoc"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.11.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "~5.16.0",
+    "jest": "~24.9.0",
+    "jest-watch-typeahead": "~0.4.0",
+    "lint": "~0.7.0",
+    "mkdirp": "~0.5.1",
+    "pre-commit": "~1.2.2",
+    "rimraf": "~3.0.0",
+    "ts-jest": "~24.1.0",
+    "typedoc": "^0.15.0",
+    "typescript": "~3.6.4"
+  },
+  "dependencies": {
+    "uuidv4": "~5.0.1"
+  }
+}

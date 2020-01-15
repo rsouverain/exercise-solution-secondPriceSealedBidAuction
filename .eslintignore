@@ -1,0 +1,4 @@
+.idea/
+.eslint/
+lib/
+test/.coverage

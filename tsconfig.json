@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es6",
+    "module": "CommonJS",
+    "strict": true,
+    "declarationDir": "./lib",
+    "outDir": "./lib",
+    "baseUrl": "./src",
+    "allowJs": false,
+    "noImplicitReturns" : false,
+    "noFallthroughCasesInSwitch" : true,
+    "allowUnreachableCode" : false,
+    "allowUnusedLabels" : false,
+    "esModuleInterop" : true,
+    "noImplicitAny" : true,
+    "sourceMap" : true,
+    "declarationMap" : true,
+    "inlineSourceMap" : false,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "locale": "en",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "noLib": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "tests"
+  ],
+  "compileOnSave": false
+}

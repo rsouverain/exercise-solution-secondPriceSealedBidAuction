@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1571596547142" clover="3.2.0">
+  <project timestamp="1571596547142" name="All files">
+    <metrics statements="83" coveredstatements="83" conditionals="50" coveredconditionals="47" methods="20" coveredmethods="20" elements="153" coveredelements="150" complexity="0" loc="83" ncloc="83" packages="2" files="8" classes="8"/>
+    <package name="lib">
+      <metrics statements="66" coveredstatements="66" conditionals="47" coveredconditionals="44" methods="12" coveredmethods="12"/>
+      <file name="AuctionSlot.js" path="/project/lib/AuctionSlot.js">
+        <metrics statements="33" coveredstatements="33" conditionals="29" coveredconditionals="28" methods="4" coveredmethods="4"/>
+        <line num="2" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="28" count="20" type="stmt"/>
+        <line num="29" count="20" type="stmt"/>
+        <line num="30" count="20" type="stmt"/>
+        <line num="31" count="20" type="stmt"/>
+        <line num="40" count="116" type="stmt"/>
+        <line num="41" count="116" type="stmt"/>
+        <line num="42" count="116" type="stmt"/>
+        <line num="49" count="11" type="stmt"/>
+        <line num="50" count="11" type="stmt"/>
+        <line num="51" count="11" type="stmt"/>
+        <line num="52" count="11" type="stmt"/>
+        <line num="53" count="11" type="stmt"/>
+        <line num="56" count="11" type="stmt"/>
+        <line num="57" count="71" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="71" type="stmt"/>
+        <line num="61" count="71" type="cond" truecount="8" falsecount="0"/>
+        <line num="67" count="16" type="stmt"/>
+        <line num="73" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="74" count="8" type="stmt"/>
+        <line num="75" count="60" type="stmt"/>
+        <line num="76" count="60" type="cond" truecount="8" falsecount="0"/>
+        <line num="82" count="8" type="stmt"/>
+        <line num="86" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="87" count="8" type="stmt"/>
+        <line num="89" count="11" type="stmt"/>
+        <line num="92" count="6" type="stmt"/>
+      </file>
+      <file name="AuctionSlotWinner.js" path="/project/lib/AuctionSlotWinner.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="25" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="36" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+      </file>
+      <file name="AuctionableItem.js" path="/project/lib/AuctionableItem.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+      </file>
+      <file name="Bid.js" path="/project/lib/Bid.js">
+        <metrics statements="9" coveredstatements="9" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="26" count="118" type="stmt"/>
+        <line num="27" count="118" type="stmt"/>
+        <line num="28" count="118" type="stmt"/>
+        <line num="29" count="118" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+      </file>
+      <file name="BidCollection.js" path="/project/lib/BidCollection.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+      </file>
+      <file name="Bidder.js" path="/project/lib/Bidder.js">
+        <metrics statements="8" coveredstatements="8" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="2" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="22" count="78" type="stmt"/>
+        <line num="23" count="78" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.common">
+      <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8"/>
+      <file name="GenericCollection.js" path="/project/lib/common/GenericCollection.js">
+        <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="8" count="30" type="stmt"/>
+        <line num="14" count="14" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="34" count="117" type="stmt"/>
+        <line num="35" count="117" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="7" type="stmt"/>
+      </file>
+      <file name="NamedEntityAbstract.js" path="/project/lib/common/NamedEntityAbstract.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="12" count="100" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
